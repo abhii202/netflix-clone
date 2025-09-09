@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     return Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        buildCategory("Popular on Netflix heelo g", popular, context),
+                        buildCategory("Popular on Netflix", popular, context),
                         buildCategory("Horror", horror, context),
                         buildCategory("Thriller", thriller, context),
                         buildCategory("Sci-Fi", sciFi, context),
